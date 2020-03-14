@@ -153,7 +153,7 @@ function convertToDataTable(data) {
 function renderDateTime(v) {
     try {
         var d = new Date(v);
-        if (d && d.toJSON() !== null) return d.toLocaleDateString() + " " + d.toLocaleTimeString();
+        if (d && d.toJSON() !== null) return d.toLocaleDateString() + "<br/>" + d.toLocaleTimeString();
     } catch (error) {}
     return "";
 }
@@ -194,7 +194,7 @@ function renderKhuVuc(data) {
                         "data": "name",
                     },
                     {
-                        "title": "Thời gian chỉnh sửa",
+                        "title": "Chỉnh sửa",
                         "name": "name",
                         "class": "text-center td-nowrap",
                         "data": function(row, type, set, meta) {
@@ -263,7 +263,7 @@ function renderLop(data) {
                         "data": "name",
                     },
                     {
-                        "title": "Thời gian chỉnh sửa",
+                        "title": "Chỉnh sửa",
                         "name": "name",
                         "class": "text-center td-nowrap",
                         "data": function(row, type, set, meta) {
@@ -339,7 +339,7 @@ function renderBuoi(data) {
                         "data": "name",
                     },
                     {
-                        "title": "Thời gian chỉnh sửa",
+                        "title": "Chỉnh sửa",
                         "name": "name",
                         "class": "text-center td-nowrap",
                         "data": function(row, type, set, meta) {
@@ -408,7 +408,7 @@ function renderGio(data) {
                         "data": "name",
                     },
                     {
-                        "title": "Thời gian chỉnh sửa",
+                        "title": "Chỉnh sửa",
                         "name": "name",
                         "class": "text-center td-nowrap",
                         "data": function(row, type, set, meta) {
@@ -477,7 +477,7 @@ function renderHocSinh(data) {
                         "data": "name",
                     },
                     {
-                        "title": "Thời gian chỉnh sửa",
+                        "title": "Chỉnh sửa",
                         "name": "name",
                         "class": "text-center td-nowrap",
                         "data": function(row, type, set, meta) {
