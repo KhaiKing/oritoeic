@@ -171,3 +171,9 @@
 .datepicker.datepicker-inline table th {
     padding: 5px;
 }
+
+.dataTables_wrapper {
+    overflow: hidden;
+    overflow-x: auto;
+    width: 100%;
+}
