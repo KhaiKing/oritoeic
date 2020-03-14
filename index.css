@@ -132,16 +132,6 @@
     display: inline-block;
 }
 
-.btn-remove-khuvuc {
-    float: right;
-    padding: 5px 10px;
-    opacity: 0.2;
-}
-
-.btn-remove-khuvuc:hover {
-    opacity: 1;
-}
-
 .custom-table td,
 .custom-table th {
     white-space: normal;
@@ -155,6 +145,10 @@
     width: 100%;
 }
 
+.custom-table tbody tr {
+    cursor: pointer;
+}
+
 .td-nowrap {
     white-space: nowrap !important;
 }
@@ -163,4 +157,17 @@
     margin-left: 5px;
     margin-right: 5px;
     min-width: 50px;
+}
+
+.datepicker.datepicker-inline {
+    width: 100%;
+}
+
+.datepicker.datepicker-inline table {
+    width: 100%;
+}
+
+.datepicker.datepicker-inline table td,
+.datepicker.datepicker-inline table th {
+    padding: 5px;
 }
