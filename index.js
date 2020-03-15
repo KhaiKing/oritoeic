@@ -196,7 +196,7 @@ function renderKhuVuc(data) {
                     {
                         "title": "Chỉnh sửa",
                         "name": "name",
-                        "class": "text-center td-nowrap",
+                        "class": "text-center td-nowrap td-hide-mobile",
                         "data": function(row, type, set, meta) {
                             return renderDateTime(row.modified);
                         }
@@ -265,7 +265,7 @@ function renderLop(data) {
                     {
                         "title": "Chỉnh sửa",
                         "name": "name",
-                        "class": "text-center td-nowrap",
+                        "class": "text-center td-nowrap td-hide-mobile",
                         "data": function(row, type, set, meta) {
                             return renderDateTime(row.modified);
                         }
@@ -341,7 +341,7 @@ function renderBuoi(data) {
                     {
                         "title": "Chỉnh sửa",
                         "name": "name",
-                        "class": "text-center td-nowrap",
+                        "class": "text-center td-nowrap td-hide-mobile",
                         "data": function(row, type, set, meta) {
                             return renderDateTime(row.modified);
                         }
@@ -410,7 +410,7 @@ function renderGio(data) {
                     {
                         "title": "Chỉnh sửa",
                         "name": "name",
-                        "class": "text-center td-nowrap",
+                        "class": "text-center td-nowrap td-hide-mobile",
                         "data": function(row, type, set, meta) {
                             return renderDateTime(row.modified);
                         }
@@ -479,7 +479,7 @@ function renderHocSinh(data) {
                     {
                         "title": "Chỉnh sửa",
                         "name": "name",
-                        "class": "text-center td-nowrap",
+                        "class": "text-center td-nowrap td-hide-mobile",
                         "data": function(row, type, set, meta) {
                             return renderDateTime(row.modified);
                         }

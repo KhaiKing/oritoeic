@@ -177,3 +177,9 @@
     overflow-x: auto;
     width: 100%;
 }
+
+@media screen and (max-width: 640px) {
+    .td-hide-mobile {
+        display: none;
+    }
+}
